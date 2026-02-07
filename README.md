@@ -58,4 +58,63 @@ streamlit run app.py
 
 ---
 
-Made by ["Wish Nakthong"]
+# 🌐 English Version
+
+## What is this?
+
+A Face Recognition System using Machine Learning techniques: **PCA** for dimensionality reduction and **SVM** for classification.
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://wishercarts-face-recognition-system-app-vti7zr.streamlit.app/)
+
+👉 **[Live Demo](https://wishercarts-face-recognition-system-app-vti7zr.streamlit.app/)**
+
+## Dataset
+
+Using **LFW (Labeled Faces in the Wild)** dataset from sklearn:
+
+- Celebrity face images
+- Image size: 62x47 pixels
+
+## How to Run
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run training script
+python Faces.py
+
+# Run dashboard
+streamlit run app.py
+```
+
+## Project Files
+
+| File               | Description                     |
+| ------------------ | ------------------------------- |
+| `Faces.py`         | Main training script            |
+| `app.py`           | Streamlit dashboard for results |
+| `requirements.txt` | List of required libraries      |
+
+## Techniques Used
+
+1. **PCA (Principal Component Analysis)** - Reduce features from ~3000 to 150 components
+2. **SVM (Support Vector Machine with RBF kernel)** - Face classification
+3. **GridSearchCV** - Hyperparameter tuning to find optimal parameters
+
+## Results
+
+- Accuracy: approximately **85-90%**
+- Visualization: Confusion Matrix and Pie Chart
+
+## What I Learned
+
+- Implementing PCA for dimensionality reduction
+- Training SVM classifier for multi-class classification
+- Hyperparameter tuning with GridSearchCV
+- Data visualization with matplotlib and seaborn
+- Building interactive dashboards with Streamlit
+
+---
+
+Made by **Wish Nakthong** | 📧 Contact: [GitHub](https://github.com/WISHERCARTs)
