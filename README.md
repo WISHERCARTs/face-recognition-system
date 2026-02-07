@@ -2,6 +2,10 @@
 
 โปรเจกต์ระบบจำแนกใบหน้าโดยใช้ Machine Learning
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://wishercarts-face-recognition-system-app-vti7zr.streamlit.app/)
+
+👉 **[Live Demo](https://wishercarts-face-recognition-system-app-vti7zr.streamlit.app/)**
+
 ## ทำอะไร?
 
 ระบบนี้ใช้ **PCA** ลดขนาดข้อมูลรูปภาพ แล้วใช้ **SVM** จำแนกว่าเป็นใบหน้าของใคร
